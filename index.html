@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mohamed Sofian | IT Support Portfolio</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      background: #0f172a;
+      color: #e2e8f0;
+    }
+    a { color: #38bdf8; text-decoration: none; }
+    .container { width: 90%; max-width: 1100px; margin: auto; }
+    header {
+      padding: 80px 0 40px;
+      text-align: center;
+    }
+    header h1 { font-size: 2.8rem; margin-bottom: 10px; }
+    header p { font-size: 1.1rem; color: #94a3b8; max-width: 700px; margin: auto; }
+    .btn-group { margin-top: 25px; }
+    .btn {
+      display: inline-block;
+      margin: 8px;
+      padding: 12px 22px;
+      border-radius: 10px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    .btn-primary { background: #38bdf8; color: #0f172a; }
+    .btn-primary:hover { background: #0ea5e9; }
+    .btn-secondary {
+      border: 1px solid #38bdf8;
+      color: #38bdf8;
+    }
+    .btn-secondary:hover { background: rgba(56,189,248,0.1); }
+    section { padding: 60px 0; }
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+      color: #f8fafc;
+      text-align: center;
+    }
+    .about, .contact {
+      max-width: 800px;
+      margin: auto;
+      text-align: center;
+      color: #cbd5e1;
+    }
+    .skills-grid, .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      margin-top: 30px;
+    }
+    .card {
+      background: #1e293b;
+      padding: 22px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    }
+    .card h3 { margin-bottom: 10px; color: #f8fafc; }
+    .card p, .card li { color: #cbd5e1; font-size: 0.95rem; }
+    .card ul { padding-left: 18px; margin-top: 10px; }
+    footer {
+      text-align: center;
+      padding: 30px 0;
+      color: #64748b;
+      border-top: 1px solid #1e293b;
+    }
+    .resume-box {
+      text-align: center;
+      margin-top: 25px;
+    }
+    @media (max-width: 600px) {
+      header h1 { font-size: 2.1rem; }
+      h2 { font-size: 1.7rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <header class="container">
+    <h1>Mohamed Sofian</h1>
+    <p>IT Support | Service Desk | Technical Support Analyst<br>
+    Supporting users, solving technical issues, and improving IT operations.</p>
+    <div class="btn-group">
+      <a href="#projects" class="btn btn-primary">View Projects</a>
+      <a href="#contact" class="btn btn-secondary">Contact Me</a>
+      <a href="resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container">
+      <h2>About Me</h2>
+      <p class="about">
+        I am an IT support professional with experience in troubleshooting, user support, ticket handling,
+        hardware/software setup, and Microsoft 365 environments. I enjoy solving problems efficiently,
+        documenting solutions clearly, and helping users work without disruption.
+      </p>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2>Core Skills</h2>
+      <div class="skills-grid">
+        <div class="card"><h3>Microsoft 365</h3><p>Outlook, Teams, user support, account troubleshooting.</p></div>
+        <div class="card"><h3>Windows Support</h3><p>Windows 10/11 troubleshooting, setup, updates, and maintenance.</p></div>
+        <div class="card"><h3>Hardware & Software</h3><p>Laptop setup, printer issues, software installation, peripheral support.</p></div>
+        <div class="card"><h3>Ticketing & Support</h3><p>Incident handling, user communication, issue prioritization, escalation.</p></div>
+        <div class="card"><h3>Remote Troubleshooting</h3><p>Supporting users remotely and resolving common enterprise IT issues.</p></div>
+        <div class="card"><h3>Documentation</h3><p>Creating SOPs, troubleshooting guides, and support knowledge articles.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2>Projects & Case Studies</h2>
+      <div class="projects-grid">
+        <div class="card">
+          <h3>VPN Troubleshooting Guide</h3>
+          <p>Created a simple support guide for common VPN connection issues.</p>
+          <ul>
+            <li><strong>Problem:</strong> Frequent remote access issues.</li>
+            <li><strong>Tools:</strong> Windows, VPN client, MFA</li>
+            <li><strong>Outcome:</strong> Faster first-level troubleshooting.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Employee Onboarding Checklist</h3>
+          <p>Structured a repeatable checklist for setting up new users.</p>
+          <ul>
+            <li><strong>Problem:</strong> Inconsistent onboarding setup.</li>
+            <li><strong>Tools:</strong> Microsoft 365, hardware prep</li>
+            <li><strong>Outcome:</strong> Better setup consistency.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Password Reset & MFA Recovery SOP</h3>
+          <p>Built a step-by-step process to help users regain account access.</p>
+          <ul>
+            <li><strong>Problem:</strong> Login and MFA lockout cases.</li>
+            <li><strong>Tools:</strong> Microsoft 365, user verification</li>
+            <li><strong>Outcome:</strong> Faster support handling.</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h3>Home Lab Setup</h3>
+          <p>Practiced IT administration skills in a personal test environment.</p>
+          <ul>
+            <li><strong>Focus:</strong> Windows Server, AD, DNS basics</li>
+            <li><strong>Tools:</strong> VirtualBox / Hyper-V</li>
+            <li><strong>Outcome:</strong> Hands-on technical learning.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="resume">
+    <div class="container">
+      <h2>Resume & Certifications</h2>
+      <div class="resume-box">
+        <p>Upload your resume file and rename it as <strong>resume.pdf</strong>.</p>
+        <br>
+        <a href="resume.pdf" class="btn btn-primary" target="_blank">Open Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2>Contact</h2>
+      <div class="contact">
+        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/your-linkedin" target="_blank">linkedin.com/in/your-linkedin</a></p>
+        <p>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2026 Mohamed Sofian. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
